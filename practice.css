@@ -4,30 +4,32 @@
 }
 .back{
 background-image: url("/images/back.jpg");
-background-size: cover;
+/* background-size: cover; */
 width: 60%;
 height: 70vh;
 position: fixed;
 z-index: -1;
 filter: blur(2px);
+background-repeat: no-repeat;
 }
 .head{
-    color: rgb(26, 214, 158);
+    color: rgb(255, 0, 0);
     text-align: center;
-    width: 60%;
+    width: 40%;
     padding-top: 140px;
     font-weight: 800;
     font-size: 25px;
 
 }
 .para{
+    color: rgb(229, 245, 11);
     margin-top: 35px;
     font-weight: 500;
     font-size: 20px;
 }
 .btn{
     height: 30px;
-    margin-left: 550px;
+    margin-left: 350px;
     margin-top: 10px;
     padding: 0 5px;
     background-color: rgb(238, 144, 20);
@@ -36,4 +38,29 @@ filter: blur(2px);
     border-radius: 5px;
     box-shadow: 5px 5px 5px;
     
+}
+/* main */
+.main{
+    width: 40%;
+    text-align: center;
+    margin-top: 200px; 
+}
+.top-main{
+    padding: 20px;
+
+}
+.main-h3{
+    font-weight: 800;
+    font-size: 30px;
+
+}
+.main-top-pera{
+    padding-top: 10px;
+
+      
+
+}
+.btnc{
+    height: 30px;
+    background-color: bisque;
 }
