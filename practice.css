@@ -1,8 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 .head{
+    
     background-image: url("/images/back.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,14 +17,14 @@
     text-align: center;
     padding-left: 50px;
     padding-top: 150px;
-    margin-right: 200px;
+    margin-right: 150px;
     font-weight: 700;
     font-size: 40px;
 }
 .para{
     color: rgba(0, 255, 179, 0.925);
     text-align: center;
-    margin-right: 200px;
+    margin-right: 150px;
     margin-top: 20px;
     font-size: 22px; }
  .btn{
@@ -40,15 +42,17 @@
 }
 /* main */
  .main{
-    width: 40%;
+    background-color: azure;
+    width: 50%;
     text-align: center;
-    margin-top: 200px; 
+    margin-top: 100px; 
 }
 .top-main{
     padding: 20px;
 
 }
 .main-h3{
+    color: rgb(225, 0, 255);
     font-weight: 800;
     font-size: 30px;
 
@@ -56,6 +60,7 @@
 .main-top-pera{
     padding-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    color: cornflowerblue;
 }
 .btnc{
     height: 40px;
@@ -98,4 +103,64 @@
     border: none;
     border-radius: 5px;
     box-shadow: 5px 5px 5px;
+}
+.mid{
+    padding-top: 50px;
+    
+}
+.midh
+{color: #E100FF;
+font-weight: 800;
+font-size: 30px;
+}
+.midp{
+    color: #64A2F2;
+    padding-top: 10px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* down */
+.flex{
+    display: flex;
+padding: 50px 20px;
+}
+.dvo{
+    background-color: rgb(233, 199, 155);
+    padding: 30px 15px;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+    margin: 10px;
+    
+}
+.dho{
+    padding: 20px 0;
+    font-weight: 700;
+    font-size: 25px;
+}
+.dhto{
+    background-color: rgb(212, 233, 155);
+    padding: 30px 15px;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+    margin: 10px;
+}
+.dht{
+    padding: 20px 0;
+    font-weight: 700;
+    font-size: 25px;
+}
+.dhtto{
+    background-color: rgb(49, 138, 221);
+    padding: 30px 15px;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+    margin: 10px;
+}
+.dhtt{
+    padding: 20px 0;
+    font-weight: 700;
+    font-size: 25px;
 }
